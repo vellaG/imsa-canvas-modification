@@ -82,3 +82,6 @@
 #right-side .right-side-list li em, #right-side .right-side-list li p {
     color: var(--lowWhite);
 }
+
+.ui-tabs .ui-tabs-panel {
+    background-color: var(--secondaryDark);
