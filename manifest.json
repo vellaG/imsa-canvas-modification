@@ -10,14 +10,14 @@
         
         },
         {
-            "matches": ["https://*.instructure.com/"],
+            "matches": ["https://*.instructure.com/*"],
             "js": ["/js/dashboard.js"]
         
         }],
     "permissions": ["storage"],
     "web_accessible_resources": [
         {
-          "resources": [ "/css/*" ],
+          "resources": [ "/css/*"],
           "matches": [ "https://*.instructure.com/*" ]
         }
       ]

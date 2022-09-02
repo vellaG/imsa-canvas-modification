@@ -1,26 +1,52 @@
 :root {
-    --primaryBackgroundColor: #222222;
-    --primaryLighterColor: #313131;
-    --secondaryDivColor: #1f1f1f;
-
-    /* icon colors */
-    --dashboardIconColor: #1680ae;
-
-
-    /*link styling */
-    --ClassLinkUnderliningColor: #bfbfbf;
-
-    --BodyText: #ffffff;
-    --sideLink:#13acce;
-    --subInfoLink: #494949;
-    --timestampcolor: #cfcfcf;
-
-    --nav-highlighting: #333232;
+    --primaryDark: #141414;
+    --secondaryDark: #161616;
+    --tertiaryDark: #202020;
+    --quaternaryDark: #373737;
+    
 
 
-    --ic-brand-global-nav-logo-bgd: var(--secondaryDivColor);
+    /* taken from canvas */
+    --ic-brand-font-color-dark: #ffffff;
+    --ic-brand-global-nav-logo-bgd: var(--secondaryDark);
+    --ic-brand-global-nav-bgd: var(--secondaryDark);
+    --ic-link-color: #676767;
+    --ic-brand-header-image: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png);
+    --ic-brand-font-color-dark-lightened-28:  #949494;
+    --cAqHo-background: var(--tertiaryDark)  !important;
+    --sJGfW-background: var(--tertiaryDark) !important;
+    --eoNrR-background: var(--tertiaryDark) !important;
+    --eoNrR-color: #f1f1f1;
+    --sJGfW-labelColor: #f1f1f1;
+    --sJGfW-iconColor: #f1f1f1;
+    --ctrLD-color: #434343 !important;
+    --fbyHH-color: #1e9fe0 !important;
+    --pFBbo-background: var(--primaryDark) !important;
+    --bDBte-titleBackground: var(--secondaryDark);
+    --pFBbo-color: #ffffff;
+    --yyQPt-background: var(--tertiaryDark);
+    --doxeE-borderColor: var(--quaternaryDark);
+    --cCGLM-borderColor: var(--quaternaryDark);
+    --voGQb-background: var(--primaryDark);
+    --fOyUs-color: #1e9fe0 !important;
+    --voGQb-color: #ffffff !important;
+    --dLyYq-background: var(--tertiaryDark);
+    --dLyYq-primaryColor: #0B874B;
+    --dIgyp-background: var(--secondaryDark) !important;
+    --fQfxa-secondaryGhostColor: #1e9fe0 !important;
+    --fQfxa-primaryInverseBackground: var(--secondaryDark);
+    --fQfxa-primaryInverseColor: #35c1d6;
+    --fLzZc-background: var(--secondaryDark);
+    --jpyTq-color: #d9d9d9;
+    
 
-    --buttonTextTone:#f7f7f7;
-    --buttonBackgroundOne: #3e3e3e;
 }
 
+body {
+    background-color: var(--primaryDark);
+}
+
+a {
+    text-decoration: none;
+    color: var(--fbyHH-color) ;
+}
