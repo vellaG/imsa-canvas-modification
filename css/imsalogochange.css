@@ -1,0 +1,6 @@
+.ic-sidebar-logo__image {
+    content: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png) !important;
+}
+:root {
+    --ic-brand-header-image: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png) !important;
+}

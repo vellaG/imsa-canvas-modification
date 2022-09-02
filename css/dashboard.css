@@ -23,9 +23,7 @@
 
 }
 
-.ic-sidebar-logo__image {
-    content: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png) !important;
-}
+
 
 .Button {
     color: white;
@@ -72,16 +70,43 @@
 }
 
 .ic-DashboardCard__header-title {
-    font-size: large;
+    font-size: large !important;
 }
 
 .ToDoSidebarItem {
-    border-bottom: 1px solid var(--quaternaryDark);
+    border-bottom: 1px solid var(--quaternaryDark) !important;
 }
 
 #right-side .right-side-list li em, #right-side .right-side-list li p {
-    color: var(--lowWhite);
+    color: var(--lowWhite) !important;
 }
 
 .ui-tabs .ui-tabs-panel {
-    background-color: var(--secondaryDark);
+    background-color: var(--secondaryDark) !important;
+
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background-color: var(--tertiaryDark) !important;
+}
+
+span.fOyUs_bGBk.fOyUs_desw.bDzpk_bGBk.bDzpk_busO.bDzpk_fZWR.bDzpk_qOas {
+    background-color: var(--secondaryDark) !important;
+    }
+
+.qBMHb_cwos, input[type].qBMHb_cwos {
+    color: var(--lowWhite)  !important
+}
+
+.pinned-discussions-v2__wrapper, .unpinned-discussions-v2__wrapper { 
+    background-color: var(--secondaryDark) !important;
+}
+
+.discussions-v2__container-image {
+
+    background-color: var(--secondaryDark) !important;
+}
+
+.closed-for-comments-discussions-v2__wrapper {
+    background-color: var(--secondaryDark) !important;
+}

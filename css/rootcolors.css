@@ -14,7 +14,6 @@
     --ic-brand-global-nav-logo-bgd: var(--secondaryDark) !important;
     --ic-brand-global-nav-bgd: var(--secondaryDark) !important;
     --ic-link-color: #676767 !important;
-    --ic-brand-header-image: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png) !important;
     --ic-brand-font-color-dark-lightened-28:  #949494 !important;
     --cAqHo-background: var(--tertiaryDark)  !important;
     --sJGfW-background: var(--tertiaryDark) !important;
@@ -42,7 +41,7 @@
     --fLzZc-background: var(--secondaryDark) !important;
     --jpyTq-color: #d9d9d9 !important;
     --ic-brand-font-color-dark-lightened-15: #ffffff !important;
-    
+    --MlJlv-textColor: #1e9fe0 !important;
 
 }
 
@@ -53,4 +52,12 @@ body {
 a {
     text-decoration: none !important;
     color: var(--fbyHH-color) !important ;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+select {
+background-color: var(--secondaryDark);
 }
