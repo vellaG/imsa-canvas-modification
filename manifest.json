@@ -1,0 +1,24 @@
+{
+    "name": "Kale's IMSA canvas mod",
+    "description": "Build an Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts":[
+        {
+            "matches": ["https://*.instructure.com/*"],
+            "js": ["rootcolors.js"]
+        
+        },
+        {
+            "matches": ["https://*.instructure.com/"],
+            "js": ["/js/dashboard.js"]
+        
+        }],
+    "permissions": ["storage"],
+    "web_accessible_resources": [
+        {
+          "resources": [ "/css/*" ],
+          "matches": [ "https://*.instructure.com/*" ]
+        }
+      ]
+  }

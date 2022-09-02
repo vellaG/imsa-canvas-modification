@@ -1,0 +1,26 @@
+:root {
+    --primaryBackgroundColor: #222222;
+    --primaryLighterColor: #313131;
+    --secondaryDivColor: #1f1f1f;
+
+    /* icon colors */
+    --dashboardIconColor: #1680ae;
+
+
+    /*link styling */
+    --ClassLinkUnderliningColor: #bfbfbf;
+
+    --BodyText: #ffffff;
+    --sideLink:#13acce;
+    --subInfoLink: #494949;
+    --timestampcolor: #cfcfcf;
+
+    --nav-highlighting: #333232;
+
+
+    --ic-brand-global-nav-logo-bgd: var(--secondaryDivColor);
+
+    --buttonTextTone:#f7f7f7;
+    --buttonBackgroundOne: #3e3e3e;
+}
+
