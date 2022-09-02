@@ -26,7 +26,7 @@
 
 
 .Button {
-    color: white;
+    color: var(--primaryTextColor);
     background-color: var(--secondaryDark) !important;
 }
 
@@ -110,3 +110,51 @@ span.fOyUs_bGBk.fOyUs_desw.bDzpk_bGBk.bDzpk_busO.bDzpk_fZWR.bDzpk_qOas {
 .closed-for-comments-discussions-v2__wrapper {
     background-color: var(--secondaryDark) !important;
 }
+
+.dropdown-menu {
+    background-color: var(--secondaryDark) !important;
+}
+
+#minical {
+background-color: var(--secondaryDark) !important;
+
+}
+
+#minical .fc-toolbar h2, #minical .fc-toolbar .h2 {
+color: var(--primaryTextColor) !important
+
+}
+
+#minical .fc-widget-content {
+color: var(--lowWhite) !important
+
+}
+
+
+#calendar-list-holder, #other-calendars-list-holder, #undated-events {
+    background-color: var(--secondaryDark) !important;
+}
+
+#calendars-context-list .context_list_context:hover, #other-calendars-context-list .context_list_context:hover {
+    background-color: var(--darkSelection) !important;
+
+}
+
+#calendar-app .fc-month-view .fc-today, #calendar-drag-and-drop-container .fc-month-view .fc-today {
+    background-color: var(--secondaryDark) !important;
+    
+    }
+    
+    #calendar-app .fc-event, #calendar-drag-and-drop-container .fc-event {
+        background-color: var(--tertiaryDark) !important;
+    
+    }
+    
+    .assignment-student-header {
+    
+        background-color: var(--primaryDark) !important;
+    }
+    
+    #assignments-student-footer {
+        background-color: var(--primaryDark) !important;
+    }

@@ -1,47 +1,55 @@
 :root {
+    /* cholor scheming*/
     --primaryDark: #141414 !important;
     --secondaryDark: #161616 !important;
     --tertiaryDark: #202020 !important;
     --quaternaryDark: #373737 !important;
+
+    --primaryTextColor: #ffffff;
+    --linkColor : #1e9fe0;
+    --darkGrayEdging: #9b9b9b;
+    --positiveColor: #0B874B;
+    
     
 
     /* stupid crap i have to modify because canvas is mid */
     --lowWhite: #f9f9f9 !important;
-    --darkSelection: #121212 !important;
+    --darkSelection: #2c2c2c !important;
+
 
     /* taken from canvas */
-    --ic-brand-font-color-dark: #ffffff !important;
+    --ic-brand-font-color-dark: var(--primaryTextColor) !important;
     --ic-brand-global-nav-logo-bgd: var(--secondaryDark) !important;
     --ic-brand-global-nav-bgd: var(--secondaryDark) !important;
-    --ic-link-color: #676767 !important;
-    --ic-brand-font-color-dark-lightened-28:  #949494 !important;
+    --ic-link-color: var(--darkGrayEdging) !important;
+    --ic-brand-font-color-dark-lightened-28:  var(--darkGrayEdging) !important;
     --cAqHo-background: var(--tertiaryDark)  !important;
     --sJGfW-background: var(--tertiaryDark) !important;
     --eoNrR-background: var(--tertiaryDark) !important;
-    --eoNrR-color: #f1f1f1 !important;
-    --sJGfW-labelColor: #f1f1f1 !important;
-    --sJGfW-iconColor: #f1f1f1 !important;
-    --ctrLD-color: #434343 !important;
-    --fbyHH-color: #1e9fe0 !important;
+    --eoNrR-color: var(--primaryTextColor) !important;
+    --sJGfW-labelColor: var(--primaryTextColor) !important;
+    --sJGfW-iconColor: var(--primaryTextColor) !important;
+    --ctrLD-color: var(--darkGrayEdging) !important;
+    --fbyHH-color: var(--linkColor) !important;
     --pFBbo-background: var(--primaryDark) !important;
     --bDBte-titleBackground: var(--secondaryDark) !important;
-    --pFBbo-color: #ffffff !important;
+    --pFBbo-color: var(--primaryTextColor) !important;
     --yyQPt-background: var(--tertiaryDark) !important;
     --doxeE-borderColor: var(--quaternaryDark) !important;
     --cCGLM-borderColor: var(--quaternaryDark) !important;
     --voGQb-background: var(--primaryDark) !important;
-    --fOyUs-color: #1e9fe0 !important;
-    --voGQb-color: #ffffff !important;
+    --fOyUs-color: var(--linkColor) !important;
+    --voGQb-color: var(--primaryTextColor) !important;
     --dLyYq-background: var(--tertiaryDark) !important;
-    --dLyYq-primaryColor: #0B874B;
+    --dLyYq-primaryColor: var(--positiveColor) !important;
     --dIgyp-background: var(--secondaryDark) !important;
-    --fQfxa-secondaryGhostColor: #1e9fe0 !important;
+    --fQfxa-secondaryGhostColor: var(--linkColor) !important;
     --fQfxa-primaryInverseBackground: var(--secondaryDark) !important;
-    --fQfxa-primaryInverseColor: #35c1d6 !important;
+    --fQfxa-primaryInverseColor: var(--linkColor) !important;
     --fLzZc-background: var(--secondaryDark) !important;
-    --jpyTq-color: #d9d9d9 !important;
-    --ic-brand-font-color-dark-lightened-15: #ffffff !important;
-    --MlJlv-textColor: #1e9fe0 !important;
+    --jpyTq-color: var(--lowWhite) !important;
+    --ic-brand-font-color-dark-lightened-15: var(--primaryTextColor) !important;
+    --MlJlv-textColor: var(--primaryTextColor) !important;
 
 }
 
@@ -51,13 +59,19 @@ body {
 
 a {
     text-decoration: none !important;
-    color: var(--fbyHH-color) !important ;
+    color: var(--linkColor) !important ;
 }
 
 h1 {
-    color: #ffffff;
+    color: var(--primaryTextColor);
 }
 
 select {
 background-color: var(--secondaryDark);
 }
+
+table { 
+background-color: var(--secondaryDark);
+
+}
+

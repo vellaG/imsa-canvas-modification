@@ -1,7 +1,7 @@
 {
-    "name": "Kale's IMSA canvas mod",
-    "description": "Build an Extension!",
-    "version": "1.0",
+    "name": "Amolsoft",
+    "description": "A simple dark reskin for canvas",
+    "version": "1.2",
     "manifest_version": 3,
     "content_scripts":[
         {
@@ -12,11 +12,6 @@
         {
             "matches": ["https://*.instructure.com/*"],
             "js": ["/js/dashboard.js"]
-        
-        },
-        {
-            "matches": ["https://imsa.instructure.com/*"],
-            "js": ["/js/imsalogochange.js"]
         
         }],
     "permissions": ["storage"],
