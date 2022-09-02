@@ -1,52 +1,55 @@
 :root {
-    --primaryDark: #141414;
-    --secondaryDark: #161616;
-    --tertiaryDark: #202020;
-    --quaternaryDark: #373737;
+    --primaryDark: #141414 !important;
+    --secondaryDark: #161616 !important;
+    --tertiaryDark: #202020 !important;
+    --quaternaryDark: #373737 !important;
     
 
+    /* stupid crap i have to modify because canvas is mid */
+    --lowWhite: #f9f9f9 !important;
+    --darkSelection: #121212 !important;
 
     /* taken from canvas */
-    --ic-brand-font-color-dark: #ffffff;
-    --ic-brand-global-nav-logo-bgd: var(--secondaryDark);
-    --ic-brand-global-nav-bgd: var(--secondaryDark);
-    --ic-link-color: #676767;
-    --ic-brand-header-image: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png);
-    --ic-brand-font-color-dark-lightened-28:  #949494;
+    --ic-brand-font-color-dark: #ffffff !important;
+    --ic-brand-global-nav-logo-bgd: var(--secondaryDark) !important;
+    --ic-brand-global-nav-bgd: var(--secondaryDark) !important;
+    --ic-link-color: #676767 !important;
+    --ic-brand-header-image: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png) !important;
+    --ic-brand-font-color-dark-lightened-28:  #949494 !important;
     --cAqHo-background: var(--tertiaryDark)  !important;
     --sJGfW-background: var(--tertiaryDark) !important;
     --eoNrR-background: var(--tertiaryDark) !important;
-    --eoNrR-color: #f1f1f1;
-    --sJGfW-labelColor: #f1f1f1;
-    --sJGfW-iconColor: #f1f1f1;
+    --eoNrR-color: #f1f1f1 !important;
+    --sJGfW-labelColor: #f1f1f1 !important;
+    --sJGfW-iconColor: #f1f1f1 !important;
     --ctrLD-color: #434343 !important;
     --fbyHH-color: #1e9fe0 !important;
     --pFBbo-background: var(--primaryDark) !important;
-    --bDBte-titleBackground: var(--secondaryDark);
-    --pFBbo-color: #ffffff;
-    --yyQPt-background: var(--tertiaryDark);
-    --doxeE-borderColor: var(--quaternaryDark);
-    --cCGLM-borderColor: var(--quaternaryDark);
-    --voGQb-background: var(--primaryDark);
+    --bDBte-titleBackground: var(--secondaryDark) !important;
+    --pFBbo-color: #ffffff !important;
+    --yyQPt-background: var(--tertiaryDark) !important;
+    --doxeE-borderColor: var(--quaternaryDark) !important;
+    --cCGLM-borderColor: var(--quaternaryDark) !important;
+    --voGQb-background: var(--primaryDark) !important;
     --fOyUs-color: #1e9fe0 !important;
     --voGQb-color: #ffffff !important;
-    --dLyYq-background: var(--tertiaryDark);
+    --dLyYq-background: var(--tertiaryDark) !important;
     --dLyYq-primaryColor: #0B874B;
     --dIgyp-background: var(--secondaryDark) !important;
     --fQfxa-secondaryGhostColor: #1e9fe0 !important;
-    --fQfxa-primaryInverseBackground: var(--secondaryDark);
-    --fQfxa-primaryInverseColor: #35c1d6;
-    --fLzZc-background: var(--secondaryDark);
-    --jpyTq-color: #d9d9d9;
+    --fQfxa-primaryInverseBackground: var(--secondaryDark) !important;
+    --fQfxa-primaryInverseColor: #35c1d6 !important;
+    --fLzZc-background: var(--secondaryDark) !important;
+    --jpyTq-color: #d9d9d9 !important;
     
 
 }
 
 body {
-    background-color: var(--primaryDark);
+    background-color: var(--primaryDark) !important;
 }
 
 a {
-    text-decoration: none;
-    color: var(--fbyHH-color) ;
+    text-decoration: none !important;
+    color: var(--fbyHH-color) !important ;
 }

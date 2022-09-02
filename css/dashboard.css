@@ -1,5 +1,5 @@
 .ic-Dashboard-header__layout {
-    background-color: var(--primaryDark)
+    background-color: var(--primaryDark)  !important
 }
 
 #right-side-wrapper {
@@ -7,15 +7,15 @@
 }
 
 .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
-    background: var(--tertiaryDark);
+    background: var(--tertiaryDark)  !important;
 }
 
 .ic-DashboardCard__header_content  {
-    background-color: var(--tertiaryDark);
+    background-color: var(--tertiaryDark) !important;
 }
 
 .ic-DashboardCard {
-    background-color: var(--tertiaryDark);
+    background-color: var(--tertiaryDark) !important;
 }
 
 .Underline-All-Links__enabled a:not(.Button):not(.ui-button):not(.btn):not(.ui-button):not(.ui-tabs-anchor) {
@@ -24,14 +24,61 @@
 }
 
 .ic-sidebar-logo__image {
-    content: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png);
+    content: url(https://www.imsa.edu/wp-content/uploads/2019/01/IMSA_logo-01.png) !important;
 }
 
 .Button {
     color: white;
-    background-color: var(--secondaryDark);
+    background-color: var(--secondaryDark) !important;
 }
 
 .conversations .panel { 
     background-color: var(--primaryDark) !important;
+}
+
+.item-group-condensed .ig-row { 
+    background: var(--tertiaryDark) !important;
+}
+
+.item-group-container {
+
+    background: var(--secondaryDark) !important;
+}
+
+.item-group-condensed .ig-header {
+    background: var(--quaternaryDark) !important;
+}
+
+.ig-header .name {
+    color: var(--lowWhite) !important
+}
+
+.header-bar {
+    background-color: var(--primaryDark) !important;
+}
+
+#breadcrumbs {
+    background-color: var(--primaryDark) !important;
+}
+
+.ig-list .ig-row:hover {
+    background-color: var(--darkSelection) !important;
+
+}
+
+.btn {
+    background-color: var(--secondaryDark) !important;
+    color: var(--lowWhite) !important;
+}
+
+.ic-DashboardCard__header-title {
+    font-size: large;
+}
+
+.ToDoSidebarItem {
+    border-bottom: 1px solid var(--quaternaryDark);
+}
+
+#right-side .right-side-list li em, #right-side .right-side-list li p {
+    color: var(--lowWhite);
 }
