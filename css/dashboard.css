@@ -158,3 +158,12 @@ color: var(--lowWhite) !important
     #assignments-student-footer {
         background-color: var(--primaryDark) !important;
     }
+
+    .accessible-toggler {
+        color: var(--primaryTextColor)
+
+    }
+
+    .accessible-toggler:hover, .accessible-toggler:focus { 
+        color: var(--lowWhite)
+    }

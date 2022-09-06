@@ -13,7 +13,7 @@
     
 
     /* stupid crap i have to modify because canvas is mid */
-    --lowWhite: #f9f9f9 !important;
+    --lowWhite: #eeeeee !important;
     --darkSelection: #2c2c2c !important;
 
 
@@ -66,6 +66,26 @@ h1 {
     color: var(--primaryTextColor);
 }
 
+h2 {
+    color: var(--primaryTextColor)
+}
+
+h3 {
+    color: var(--primaryTextColor)
+}
+
+h4 {
+    color: var(--primaryTextColor)
+}
+
+h5 {
+    color: var(--primaryTextColor)
+}
+
+h6 {
+    color: var(--primaryTextColor)
+}
+
 select {
 background-color: var(--secondaryDark);
 }
@@ -75,3 +95,10 @@ background-color: var(--secondaryDark);
 
 }
 
+p {
+    color: var(--primaryTextColor)
+}
+
+.accordionPanel {
+    background-color: var(--secondaryDark);
+}
