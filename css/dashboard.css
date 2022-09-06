@@ -160,10 +160,14 @@ color: var(--lowWhite) !important
     }
 
     .accessible-toggler {
-        color: var(--primaryTextColor)
+        color: var(--primaryTextColor) !important
 
     }
 
     .accessible-toggler:hover, .accessible-toggler:focus { 
-        color: var(--lowWhite)
+        color: var(--lowWhite) !important
+    }
+
+    .toolbarView .headerBar { 
+        background-color: var(--tertiaryDark) !important;
     }

@@ -63,42 +63,46 @@ a {
 }
 
 h1 {
-    color: var(--primaryTextColor);
+    color: var(--primaryTextColor) !important;
 }
 
 h2 {
-    color: var(--primaryTextColor)
+    color: var(--primaryTextColor) !important
 }
 
 h3 {
-    color: var(--primaryTextColor)
+    color: var(--primaryTextColor) !important
 }
 
 h4 {
-    color: var(--primaryTextColor)
+    color: var(--primaryTextColor) !important
 }
 
 h5 {
-    color: var(--primaryTextColor)
+    color: var(--primaryTextColor) !important
 }
 
 h6 {
-    color: var(--primaryTextColor)
+    color: var(--primaryTextColor) !important
 }
 
 select {
-background-color: var(--secondaryDark);
+background-color: var(--secondaryDark) !important;
 }
 
 table { 
-background-color: var(--secondaryDark);
+background-color: var(--secondaryDark) !important;
 
 }
 
 p {
-    color: var(--primaryTextColor)
+    color: var(--primaryTextColor) !important
 }
 
 .accordionPanel {
-    background-color: var(--secondaryDark);
+    background-color: var(--secondaryDark) !important;
+}
+
+span {
+    color: var(--primaryTextColor) !important
 }
