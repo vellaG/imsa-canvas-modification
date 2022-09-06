@@ -1,15 +1,15 @@
 # imsa-canvas-modification
 
-### About
+## About
 A css extension that makes canvas dark and not look like absolute crap.
 
 
-#### How to load the extension
+## How to load the extension
 1. go to extension (chrome://extensions)
 2. turn on developer mode
 3. load repo folder as unpacked
 
-##### licensing stuff
+## licensing stuff
 
 Copyright 2022 Kale Suarez
 
