@@ -171,3 +171,7 @@ color: var(--lowWhite) !important
     .toolbarView .headerBar { 
         background-color: var(--tertiaryDark) !important;
     }
+
+    .discussion_entry { 
+        background-color: var(--secondaryDark);   
+    }

@@ -13,6 +13,11 @@
             "matches": ["https://*.instructure.com/*"],
             "js": ["/js/dashboard.js"]
         
+        },
+        {
+            "matches": ["https://imsa.instructure.com/*"],
+            "js": ["/js/imsalogochange.js"]
+        
         }],
     "permissions": ["storage"],
     "web_accessible_resources": [
